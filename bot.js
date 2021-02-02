@@ -10,7 +10,7 @@ const KoiHomeCommand = require('./commands/koihome.command');
 
 const sequelize = new Sequelize({
     dialect: 'sqlite',
-    storage: './db.sqlite',
+    storage: './data/db.sqlite',
     logging: false
 });
 
