@@ -10,6 +10,7 @@ module.exports = class DeathCommand extends BaseCommand {
      */
     constructor(client, sql) {
         super();
+        this.modsCanUse = true;
         this.cooldownType = CooldownType.USER;
         this.cooldownInterval = 10;
         this.sql = sql;
