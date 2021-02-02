@@ -20,6 +20,10 @@ const opts = {
         password: process.env.OAUTH
     },
     channels: [
+        "meiamaya",
+        "reiyuguigui",
+        "runakeivt",
+        "keikokoivt"
     ]
 };
 
