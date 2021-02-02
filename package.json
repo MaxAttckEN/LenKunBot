@@ -1,0 +1,21 @@
+{
+  "name": "LenKun-Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "sequelize": "^6.4.0",
+    "sqlite3": "^5.0.1",
+    "tmi.js": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/tmi.js": "^1.7.1"
+  }
+}
